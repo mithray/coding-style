@@ -16,15 +16,22 @@ Coding standards are important because when code is more readable:
 	* web designers
 
 
-Most coding style recommendations, however, have a very limited scope, and even claim to arbitrarily make style choices because ["These debates just distract from getting stuff done. At the end of the day you have to 'just pick something'"](https://github.com/standard/standard). This decision is actually very practical in matters that have smaller significance[1], but there are far deeper discussions about *bodies* of code that are nearly not being had at all. Underdiscussed topics include: 
+Most coding style recommendations, however, have a very limited scope, and even claim to arbitrarily make style choices because:
+
+> "These debates just distract from getting stuff done. At the end of the day you have to 'just pick something'"
+> [Standard Js](https://github.com/standard/standard))
+
+This decision is actually very practical in matters that have smaller significance[1](#ref1), but there are far deeper discussions about *bodies* of code that are nearly not being had at all. Underdiscussed topics include: 
 
 ### Project Management
 * Optimal number of lines of code(or ideas) in a file(IDEs may sometimes reduce the significance of lines of code per file)
 * code complexity/depth of function calls, 
 * redundancy of software projects
+
 ### Information Theory
 * redundancy of vocabulary/syntax
 * Shannon Entropy
+
 ### Psychology
 * Working Memory (important for file size?)
 * "Chunking" (important for how sections of code are grouped together, such as functions being "chuked" as blackbox)
@@ -32,7 +39,7 @@ Most coding style recommendations, however, have a very limited scope, and even 
 * Learning Theory
 
 
-These discussions are much more in depth than traditional discussions about semicolons, indentation, quotes and number formatting. Although, the standardization of these syntaxes actually reflects a desire to reduce *redundancy* of vocabulary, that is, saying the same thing in two identical ways. A vocubulary is faster to learn if for any intended meaning there is only one possible way to express it[2].
+These discussions are much more in depth than traditional discussions about semicolons, indentation, quotes and number formatting. Although, the standardization of these syntaxes actually reflects a desire to reduce *redundancy* of vocabulary, that is, saying the same thing in two identical ways. A vocubulary is faster to learn if for any intended meaning there is only one possible way to express it[2](#ref2).
 
-[1]: # Such as with tabs and spaces in the case that all of the following are satisfied a) compilers treat them identically, b) IDEs handle the implementation by entering the necessary spaces when the tab key is pressed 3) their is no perceptible difference in the human perception.
-[2] https://www.python.org/dev/peps/pep-0020/ Zen of Python follows this idea. 
+**[1]** <a name="ref1"></a>Such as with tabs and spaces in the case that all of the following are satisfied a) compilers treat them identically, b) IDEs handle the implementation by entering the necessary spaces when the tab key is pressed 3) their is no perceptible difference in the human perception.
+**[2]** <a name="ref2"></a>https://www.python.org/dev/peps/pep-0020/ Zen of Python follows this idea. 
