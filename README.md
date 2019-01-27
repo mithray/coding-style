@@ -1,5 +1,7 @@
 # Coding Style
 
+Disclaimer: There is nothing in this project so far except for ideas.... nothing usable actually exists here yet, but I think the ideas could help a lot of people, so if it interests you, please read, and maybe help me put something together? 
+
 ## Initial Motivation
 
 Coding standards are important because when code is more readable:
@@ -48,6 +50,19 @@ These discussions are much more in depth than traditional discussions about semi
 
 In the long term, better organized code that more people can read, is used by more people, so there are more people working on the same code, accomplishing one of the greatest security advantages open source code has: more eyes, shallow problems. With better organized projects and coding style, the moving parts are easier to understand, and individuals can more efficiently segregate into specialist areas, without making faulty assumptions about how other parts of the code ought to be organized. Modularity leads to increased specialization in society and a market that is more open to competition with lower barriers to entrance, all this is achieved by writing cleaner and better organized projects!!!
 
+## What is this actually about ?
+
+### Guidelines
+
+* Guidelines for syntax(my 2 satoshis on what everbody else is doing, based on science of learning and perception)
+* Guidelines for file organization
+* Guidelines for file size
+
+### Tools
+
+* Syntax Transformation
+* Organizing file structure with File Abstractions
+* Dependency management
 
 **[1]** <a name="ref1"></a>Such as with tabs and spaces in the case that all of the following are satisfied a) compilers treat them identically, b) IDEs handle the implementation by entering the necessary spaces when the tab key is pressed 3) their is no perceptible difference in the human perception.
 
