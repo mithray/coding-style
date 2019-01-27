@@ -1,5 +1,7 @@
 # Coding Style
 
+## Initial Motivation
+
 Coding standards are important because when code is more readable:
 
 * Maintainability is increased
@@ -15,6 +17,7 @@ Coding standards are important because when code is more readable:
 	* lawyers
 	* web designers
 
+## Limitations of Other Projects
 
 Most coding style recommendations, however, have a very limited scope, and even claim to arbitrarily make style choices because:
 
@@ -40,6 +43,11 @@ This decision is actually very practical in matters that have smaller significan
 
 
 These discussions are much more in depth than traditional discussions about semicolons, indentation, quotes and number formatting. Although, the standardization of these syntaxes actually reflects a desire to reduce *redundancy* of vocabulary, that is, saying the same thing in two identical ways. A vocubulary is faster to learn if for any intended meaning there is only one possible way to express it[[2](#ref2)].
+
+## Deeper Motivation
+
+In the long term, better organized code that more people can read, is used by more people, so there are more people working on the same code, accomplishing one of the greatest security advantages open source code has: more eyes, shallow problems. With better organized projects and coding style, the moving parts are easier to understand, and individuals can more efficiently segregate into specialist areas, without making faulty assumptions about how other parts of the code ought to be organized. Modularity leads to increased specialization in society and a market that is more open to competition with lower barriers to entrance, all this is achieved by writing cleaner and better organized projects!!!
+
 
 **[1]** <a name="ref1"></a>Such as with tabs and spaces in the case that all of the following are satisfied a) compilers treat them identically, b) IDEs handle the implementation by entering the necessary spaces when the tab key is pressed 3) their is no perceptible difference in the human perception.
 
