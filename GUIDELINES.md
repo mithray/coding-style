@@ -17,18 +17,17 @@ Time = Difficulty * Volume
 
 <math>
 
-&eta;<sub>1</sub> = the number of distinct operators
-&eta;<sub>2</sub> = the number of distinct operands
-N<sub>1</sub> = the total number of operators
-N<sub>2</sub> = the total number of operands
+&eta;<sub>1</sub> = the number of distinct operators </br>
+&eta;<sub>2</sub> = the number of distinct operands </br>
+N<sub>1</sub> = the total number of operators </br>
+N<sub>2</sub> = the total number of operands </br>
 
-Vocabulary: &eta; = &eta;<sub>1</sub> + &eta;<sub>2</sub> 
-Length: 	N = N<sub>1</sub> + N<sub>2</sub>
-Difficulty = &eta;<sub>1</sub>/2 * N<sub>2</sub>/&eta;<sub>2</sub> 
-Volume = N * log<sub>2</sub>&eta;
+Vocabulary: &eta; = &eta;<sub>1</sub> + &eta;<sub>2</sub>  </br>
+Length: 	N = N<sub>1</sub> + N<sub>2</sub> </br>
+Difficulty = &eta;<sub>1</sub>/2 * N<sub>2</sub>/&eta;<sub>2</sub>  </br>
+Volume = N * log<sub>2</sub>&eta; </br>
 
-Effort = Difficulty * Volume
-Time = E/18 seconds
+Effort = Difficulty * Volume </br>
+Time = E/18 seconds </br>
 
-h<sub>&eta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 </math>
