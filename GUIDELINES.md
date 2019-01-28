@@ -6,10 +6,10 @@ Although many people use IDEs for management of code, and some of the complexity
 
 ``` javascript
 
-let vocab_1  = the number of distinct operators 
-let vocab_2  = the number of distinct operands 
-let length_1 = the total number of operators 
-let length_2 = the total number of operands
+let vocab_1  = the_number_of_distinct_operators
+let vocab_2  = the_number_of_distinct_operands
+let length_1 = the_total_number_of_operators
+let length_2 = the_total_number_of_operands
 
 halsteadTime( vocab_1, vocab_2, length_1, length_2)
 
