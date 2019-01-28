@@ -15,7 +15,8 @@ Time = Difficulty * Volume
 \sum_{x=0}^n f(x)
 ```
 
-	\newcommand{\foo}{Foo}
+> \newcommand{\foo}{Foo}
 
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+> h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
 ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
