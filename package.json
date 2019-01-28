@@ -18,6 +18,10 @@
   "homepage": "https://github.com/mithray/coding-style#readme",
   "devDependencies": {},
   "dependencies": {
-    "complexity-report": "^2.0.0-alpha"
+    "complexity-report": "^2.0.0-alpha",
+    "escomplex": "^2.0.0-alpha",
+    "esprima": "^4.0.1",
+    "jsome": "^2.5.0",
+    "tweetnacl": "^1.0.1"
   }
 }
