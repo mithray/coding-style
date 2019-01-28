@@ -46,11 +46,11 @@ This decision is actually very practical in matters that have smaller significan
 
 These discussions are much more in depth than traditional discussions about semicolons, indentation, quotes and number formatting. Although, the standardization of these syntaxes actually reflects a desire to reduce *redundancy* of vocabulary, that is, saying the same thing in two identical ways. A vocubulary is faster to learn if for any intended meaning there is only one possible way to express it[[2](#ref2)].
 
-## Deeper Motivation
+## Deeper Motivation - Free Market, Lower Barrier to Entry, Open Society
 
 In the long term, better organized code that more people can read, is used by more people, so there are more people working on the same code, accomplishing one of the greatest security advantages open source code has: more eyes, shallow problems. With better organized projects and coding style, the moving parts are easier to understand, and individuals can more efficiently segregate into specialist areas, without making faulty assumptions about how other parts of the code ought to be organized. Modularity leads to increased specialization in society and a market that is more open to competition with lower barriers to entrance, all this is achieved by writing cleaner and better organized projects!!!
 
-## What is this actually about ?
+## What does this project actually provide ?
 
 ### Guidelines
 
@@ -58,7 +58,9 @@ In the long term, better organized code that more people can read, is used by mo
 * Guidelines for file organization
 * Guidelines for file size
 
-### Tools
+### Tooling Support and Recommendations
+
+Officially this project will be about research and guidelines, but methods to achieve these goals will be referenced.
 
 * Syntax Transformation
 * Organizing file structure with File Abstractions

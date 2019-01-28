@@ -1,0 +1,23 @@
+{
+  "name": "coding-style",
+  "version": "0.0.1",
+  "description": "Disclaimer: There is nothing in this project so far except for ideas.... nothing usable actually exists here yet, but I think the ideas could help a lot of people, so if it interests you, please read, and maybe help me put something together?",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mithray/coding-style.git"
+  },
+  "author": "Raymond Smith <mithray@protonmail.com> (mithray.github.io/mithray/coding-style)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mithray/coding-style/issues"
+  },
+  "homepage": "https://github.com/mithray/coding-style#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "complexity-report": "^2.0.0-alpha"
+  }
+}
