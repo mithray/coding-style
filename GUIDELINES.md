@@ -15,8 +15,20 @@ Time = Difficulty * Volume
 \sum_{x=0}^n f(x)
 ```
 
-> \newcommand{\foo}{Foo}
+<math>
 
-> h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+&eta;<sub>1</sub> = the number of distinct operators
+&eta;<sub>2</sub> = the number of distinct operands
+N<sub>1</sub> = the total number of operators
+N<sub>2</sub> = the total number of operands
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+Vocabulary: &eta; = &eta;<sub>1</sub> + &eta;<sub>2</sub> 
+Length: 	N = N<sub>1</sub> + N<sub>2</sub>
+Difficulty = &eta;<sub>1</sub>/2 * N<sub>2</sub>/&eta;<sub>2</sub> 
+Volume = N * log<sub>2</sub>&eta;
+
+Effort = Difficulty * Volume
+Time = E/18 seconds
+
+h<sub>&eta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+</math>
