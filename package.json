@@ -4,7 +4,8 @@
   "description": "Disclaimer: There is nothing in this project so far except for ideas.... nothing usable actually exists here yet, but I think the ideas could help a lot of people, so if it interests you, please read, and maybe help me put something together?",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "complexity": "node guidelines/test.js"
   },
   "repository": {
     "type": "git",
