@@ -34,6 +34,6 @@ Running this on the javascript ported [tweetnacl](https://github.com/dchest/twee
 
 You can test this result by using the npm script 
 
-```bash
+``` bash
 npm run complexity <path_to_file>
 ```
