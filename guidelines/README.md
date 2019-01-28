@@ -32,7 +32,7 @@ Running this on the javascript ported [tweetnacl](https://github.com/dchest/twee
 }
 ```
 
-You can test this result by using the npm script 
+You can do a complexity test on any javascript file by downloading this repo and running the npm script below:
 
 ``` bash
 npm run complexity <path_to_file>
