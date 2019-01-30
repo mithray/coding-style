@@ -1,13 +1,21 @@
 const escomplex 	= require('escomplex');
-const fs 			= require('fs')
+const esprima		= require('esprima')
 const jsome 		= require('jsome');
 const path			= require('path');
+const esgraph = require("esgraph");
+
+var test2 = require('./test2.js')
 
 var source_path
 
 function analyze(source_path){
+
 	const source		= fs.readFileSync( source_path , 'utf8')
 	const result 		= escomplex.analyse(source);
+	const cfg = esgraph(esprima.parse(source, { range: true }));
+
+	const dot = esgraph.dot(cfg, { counter: 0	, source: source });
+	console.log(dot)
 
 	let halstead = result.aggregate.halstead
 
@@ -22,7 +30,7 @@ function analyze(source_path){
 	    'time_hours': halstead.time / 3600
 	}
 
-	jsome(summary);
+//	jsome(summary);
 }
 
 let args  = process.argv

@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "complexity": "node guidelines/test.js"
+    "complexity": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,11 @@
   "dependencies": {
     "complexity-report": "^2.0.0-alpha",
     "escomplex": "^2.0.0-alpha",
+    "esgraph": "^0.3.0",
+    "eslint": "^5.12.1",
     "esprima": "^4.0.1",
     "jsome": "^2.5.0",
+    "json-to-dot": "^1.1.0",
     "tweetnacl": "^1.0.1"
   }
 }

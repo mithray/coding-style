@@ -2,6 +2,10 @@
 
 ## File Length
 
+[Programming Complexity](https://en.wikipedia.org/wiki/Programming_complexity)
+[Cyclomotaic Complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+[Haltead Complexity](https://en.wikipedia.org/wiki/Halstead_complexity_measures)
+
 Although many people use IDEs for management of code and therefore some of the complexity issues of managing large blocks of code are reduced for those users, it also causes raw complexity to increase for users who do not use the same software, therefore, recommendations to decrease the complexity of code are important. This project aims to encourage the use of modular code, the parts of which can be easily understood within a predictable timeframe. Halstead complexity provides such an estimation to calculate the complexity of a program and the length of time to write and understand it. Based on the common practice of separating functions, classes, and components into separte files, we tentatively recommend keeping files to a Halstead complexity level that takes an estimated 60 minutes to understand.
 
 The Algorithms described by Halstead can be found on [Wikipedia](https://en.wikipedia.org/wiki/Halstead_complexity_measures) and the javascript implementation is maintained by [Jared Stilwell](https://github.com/escomplex/escomplex). In summary, a functions complexity is a function of it's operators and operands.
@@ -37,3 +41,6 @@ You can do a complexity test on any javascript file by downloading this repo and
 ``` bash
 npm run complexity <path_to_file>
 ```
+
+[Iterative Capital Thesis](https://iterative.capital/section-iii/)
+[The Cathedral and the Bazaar](http://www.unterstein.net/su/docs/CathBaz.pdf)
